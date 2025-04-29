@@ -1,8 +1,21 @@
+@font-face {
+  font-family: Quintessential;
+  src: url(../fonts/Quintessential-Regular.ttf);
+}
+@font-face {
+  font-family: "Zain";
+  src: url(../fonts/Zain-Regular.ttf);
+}
 body {
   margin: 0;
   padding: 0;
   background-color: beige;
   overflow-y: scroll;
+  font-family: Zain, sans-serif;
+  font-size: 1.3em;
+}
+h1 {
+  font-family: Quintessential, sans-serif;
 }
 .container {
   height: 80vh;
